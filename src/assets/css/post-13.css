@@ -1,0 +1,56 @@
+.overninja-kit-13 {
+    --e-global-color-primary: #C3317D;
+    --e-global-color-secondary: #2F3742;
+    --e-global-color-text: #7A7A7A;
+    --e-global-color-accent: #61CE70;
+    --e-global-typography-primary-font-family: "Roboto";
+    --e-global-typography-primary-font-weight: 600;
+    --e-global-typography-secondary-font-family: "Roboto Slab";
+    --e-global-typography-secondary-font-weight: 400;
+    --e-global-typography-text-font-family: "Roboto";
+    --e-global-typography-text-font-weight: 400;
+    --e-global-typography-accent-font-family: "Roboto";
+    --e-global-typography-accent-font-weight: 500
+}
+
+.overninja-section.overninja-section-boxed>.overninja-container {
+    max-width: 1140px
+}
+
+.e-con {
+    --container-max-width: 1140px
+}
+
+.overninja-widget:not(:last-child) {
+    margin-bottom: 0
+}
+
+.overninja-element {
+    --widgets-spacing: 0px
+}
+
+    {}
+
+h1.entry-title {
+    display: var(--page-title-display)
+}
+
+@media(max-width:1024px) {
+    .overninja-section.overninja-section-boxed>.overninja-container {
+        max-width: 1024px
+    }
+
+    .e-con {
+        --container-max-width: 1024px
+    }
+}
+
+@media(max-width:767px) {
+    .overninja-section.overninja-section-boxed>.overninja-container {
+        max-width: 767px
+    }
+
+    .e-con {
+        --container-max-width: 767px
+    }
+}
